@@ -5,7 +5,6 @@ import { aboutUsBanner, faqsAbout, faqsAboutHeading, sections1, sections2, secti
 import { GetOurSober1 } from '@/helper/home'
 import Link from 'next/link'
 import React from 'react'
-
 export default function index() {
   return (
     <>

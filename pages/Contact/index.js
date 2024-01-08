@@ -2,9 +2,6 @@ import AboutBanner from '@/components/common/AboutBanner'
 import BookingForm from '@/components/common/BookingForm'
 import { conatctUs, conatctUsBanner } from '@/helper/contact'
 import { constant } from '@/helper/home'
-import Link from 'next/link'
-import React from 'react'
-
 export default function index() {
   return (
     <>
@@ -27,9 +24,6 @@ export default function index() {
               {conatctUs.description}
             </p>
           </div>
-
-
-
         </div>
         <div className="container w-full  px-4 mx-auto 2xl:px-20 lg:px-6 relative pt-5 py-10">
           <div className="w-3/5 mx-auto">
