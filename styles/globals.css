@@ -1,0 +1,213 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+  @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&display=swap');
+
+
+h1,
+h2,.btnfaqs {
+  font-family: 'Outfit', sans-serif;
+  font-weight: bold !important;
+}
+
+h3,
+h4,
+h5,
+h6,
+ul, .btn {
+  font-family: 'Outfit', sans-serif;
+  font-weight: 600px;
+}
+
+li {
+  font-family: 'Outfit', sans-serif;
+  font-weight: 400px;
+}
+
+body, p {
+  font-family: 'Outfit', sans-serif;
+  font-weight: 400;
+}
+
+.bg-btn {
+  border-radius: 6.562px;
+  border: 1.312px solid rgba(255, 255, 255, 0.00);
+  background: linear-gradient(96deg, #00ACEC -13.07%, #01E0B1 109.15%);
+}
+
+.bg-green {
+  background: linear-gradient(238deg, #01E0B1 -118.25%, #012B3B 30.5%, #012B3B 82.93%, #00ACEC 165.87%);
+}
+
+
+.text-green{
+  color: #013944;
+}
+.redClr {
+  color: #01E0B1;
+}
+
+.text-High {
+  background: url(/images/textBg.jpg) no-repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-position: center center;
+}
+
+.slick-next {
+  display: none !important;
+}
+
+.slick-dots {
+  position: absolute;
+  bottom: 20px !important;
+  display: flex !important;
+  display: block;
+  width: 100%;
+  justify-content: center;
+  margin: 0 !important;
+  list-style: none;
+}
+
+.slick-dots li {
+  width: 10px !important;
+  height: 10px !important;
+  margin: 0 2px !important;
+}
+
+.slick-dots li button:before {
+  font-family: "slick";
+  border-radius: 50% !important;
+  font-size: 13px !important;
+  line-height: 0px !important;
+  position: absolute;
+  top: 0px !important;
+  left: 0;
+  width: 10px !important;
+  height: 10px !important;
+  content: "•";
+  text-align: center;
+  opacity: 0.25;
+  color: #0A0A0A !important;
+  -webkit-font-smoothing: antialiased;
+}
+
+.slick-dots li button {
+  font-size: 0;
+  line-height: 0;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  width: 10px !important;
+  height: 10px !important;
+  cursor: pointer;
+  color: transparent;
+  background: transparent;
+}
+
+.slick-slider.Carousal1 .slick-prev {
+  left: 4% !important;
+}
+
+.slick-slider.Carousal1 .slick-next {
+  right: 4% !important;
+}
+
+.slick-slider.Carousal1 .slick-prev,
+.slick-slider.Carousal1 .slick-next {
+  font-size: 20px !important;
+  line-height: 0;
+  color: #000 !important;
+  position: absolute;
+  z-index: 999 !important;
+  width: 40px !important;
+  height: 20px;
+}
+
+.slick-prev:before {
+  content: "←";
+  font-size: 20px;
+  width: 20px;
+  color: #dfff !;
+}
+
+.slick-next:before {
+  content: "→";
+}
+
+.Latest-Projects {
+  background-image: url(/images/row-bgimage-10.jpg);
+  height: 100%;
+  background-position: calc();
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff !important;
+  background-color: #292d77;
+  background-blend-mode: multiply;
+}
+
+.grayS {
+  box-shadow: 0 0 25px 0 rgba(41, 61, 88, 0.118);
+}
+
+.grayS-shadow {
+  box-shadow: 0 0 25px 0 rgba(41, 61, 88, 0.249);
+}
+
+.ScrollToTop {
+  background-color: #0A0A0Ae2 !important;
+  border-radius: 5px;
+  padding: 10px 0 !important;
+}
+
+.navbar-nav-div {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+#menu-toggle:checked+#menu {
+  display: block;
+}
+
+@media (max-width: 1023px) {
+  .ScrollToTop {
+    background-color: #0A0A0Ae2 !important;
+    border-radius: 5px;
+    padding: 10px 0 !important;
+  }
+
+  .navbar-nav-div {
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    width: 100%;
+      background: linear-gradient(238deg, #01E0B1 -118.25%, #012B3B 30.5%, #012B3B 82.93%, #00ACEC 165.87%);
+  
+  }
+}
+
+._2qp0Z {
+  left: 20px !important;
+  bottom: 20px !important;
+}
+
+.contactbtn {
+  scroll-behavior: smooth !important;
+  transition: all 1s ease-in-out !important;
+}
+.Client-ReviewsC {
+  background: linear-gradient(-270deg,rgb(11, 11, 11),rgba(16, 22, 40, 2%) 100.001%), rgba(16, 22, 40, 2%);
+}
+.Client-ReviewsC1 {
+  background: linear-gradient(270deg,rgb(11, 11, 11),rgba(15, 22, 41, 0.02) 100.001%), rgba(16, 22, 40, 2%) ;
+}
+@media (max-width: 767px) {
+  .bg-nav {
+    background: linear-gradient(238deg, #01E0B1 -118.25%, #012B3B 30.5%, #012B3B 82.93%, #00ACEC 165.87%);
+  }
+}
